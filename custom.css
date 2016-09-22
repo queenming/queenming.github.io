@@ -136,12 +136,6 @@ html {
 table.hide3      th:nth-child(3){display: none;}
 table.hide3 td:nth-child(3) {display:none;}
 
-.puff {
+table.puff {
   table-layout:fixed;
-}
-
-td {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
