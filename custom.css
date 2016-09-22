@@ -132,3 +132,9 @@ html {
 .nobg {
 	background-color: transparent !important;
 }
+
+table.hide3      th:nth-child(3){display: none;}
+table.hide3 td:nth-child(3) {display:none;}
+
+xxxx
+
