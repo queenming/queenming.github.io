@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	$("p").hide();
 
-	$("td").textOverflow({
+	$(".td").textOverflow({
 		autoUpdate: true
 	});
 	
