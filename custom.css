@@ -6,6 +6,7 @@ body {
 
 h2,h3,h4{
 	font-family:"Lucida Console", Monaco, monospace;
+	text-shadow: 0px 0px 5px #808080;
 }
 
 li {
@@ -44,7 +45,7 @@ p.left {
   padding: 20px 20px;
   text-align: center;
   margin-bottom: 20px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .servive-block h2 a:hover{
@@ -69,7 +70,7 @@ p.left {
 }
 
 .blockblue {
-  background: #bed4ff;
+  background: #9abafc;
   color: #fff;
   padding: 24px;
 }
@@ -81,17 +82,22 @@ p.left {
 }
 
 .blockgrey {
+	padding: 1px 20px !important;
 	background: #f1f1f1;
 	color: #4b4b4b;
 	font-size:12px;
 }
 
 a:link, a:visited, a:hover, a:active {
-    color: #4b4b4b;
+    color: #9abafc;
 }
 
 .center {
 	text-align:center !important;
+}
+
+small {
+	color:#787878;
 }
 
 .table-condensed td{
@@ -111,3 +117,7 @@ a:link, a:visited, a:hover, a:active {
    background-color: #f6f6f6;
    
  }
+ 
+ .whitetext {
+	color:#fff !important;
+}
