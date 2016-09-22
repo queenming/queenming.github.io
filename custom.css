@@ -135,12 +135,3 @@ html {
 
 table.hide3      th:nth-child(3){display: none;}
 table.hide3 td:nth-child(3) {display:none;}
-
-.ellipis {
-    overflow: hidden;
-    -ms-text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-    display: block;
-    white-space: nowrap;
-}
