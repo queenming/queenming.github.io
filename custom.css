@@ -22,7 +22,7 @@ i.icon-2x {
   font-size: 30px;
 }
 
-p.left {
+.left {
 	text-align:left;
 }
 
@@ -135,3 +135,7 @@ html {
 
 table.hide3      th:nth-child(3){display: none;}
 table.hide3 td:nth-child(3) {display:none;}
+
+.skinny {
+	padding: 0px 20px;
+}
