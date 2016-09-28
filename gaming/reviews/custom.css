@@ -1,0 +1,141 @@
+
+body {
+	background-image: url("maskbg.png");
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+h2,h3{
+	font-family:"Lucida Console", Monaco, monospace;
+	background-color: #333333;
+}
+
+li {
+	text-align:left;
+}
+
+
+.gap-right {
+  margin-right: 10px; 
+}
+
+i.icon-2x {
+  font-size: 30px;
+}
+
+.left {
+	text-align:left;
+}
+
+.color-light{
+    color:#FFFFFF;
+}
+
+.toppy {
+	margin-top: 50px;
+}
+
+.z-depth-2 {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+}
+
+/*Colored Content Boxes
+------------------------------------*/
+.servive-block {
+  padding: 20px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.servive-block h2 a:hover{
+  text-decoration: none;
+}
+
+.servive-block-light,
+.servive-block-default {
+  background: #fafafa;
+  border: solid 1px #eee; 
+}
+
+.servive-block-default:hover {
+  box-shadow: 0 0 8px #eee;
+}
+
+.servive-block-light p,
+.servive-block-light h2,
+.servive-block-default p,
+.servive-block-default h2 {
+  color: #555;
+}
+
+.blockblue {
+  background: #9abafc;
+  color: #fff;
+  padding: 24px;
+}
+h2.glow {
+	  text-shadow: 0px 0px 6px #f9f9f9;
+}
+
+.blockwhite {
+	background: #fafafa;
+	color: #4b4b4b;
+	font-size:12px;
+}
+
+.blockgrey {
+	background: #f1f1f1;
+	color: #4b4b4b;
+	font-size:12px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #9abafc;
+}
+
+.center {
+	text-align:center !important;
+}
+
+small {
+	color:#787878;
+}
+
+.table-condensed td{
+	text-align: left;
+	padding: 1px !important;
+	border-color:#f1f1f1 !important;
+	font-size:12px;
+}
+.table-condensed th{
+	text-indent:-4px;
+	font-weight:bold;
+	font-size:16px;
+	font-family:"Lucida Console", Monaco, monospace;
+}
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #f6f6f6;
+   
+ }
+ 
+ .whitetext {
+	color:#fff !important;
+}
+
+html {
+       overflow-y: scroll;
+}
+
+
+.nobg {
+	background-color: transparent !important;
+}
+
+table.hide3      th:nth-child(3){display: none;}
+table.hide3 td:nth-child(3) {display:none;}
+
+.skinny {
+	padding: 0px 20px;
+}
