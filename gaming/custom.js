@@ -5,13 +5,12 @@ $(document).ready(function(){
 	$("#wrapper").dotdotdot({
 		watch: "window"
 	});
-
 	
      $('table tr td:nth-child(3)').addClass("hidden-xs");
-	 
-	 $("#playing").click(function(event){
-               $('#stage').load('playing.html');
-            });
+			
+	$('#playing').click(function() {
+				location.reload();
+			});
 	 
 	 $("#toplay").click(function(event){
                $('#stage').load('toplay.html');
@@ -26,7 +25,7 @@ $(document).ready(function(){
             });
 			
 	$("#review").click(function(event){
-               $('#stage').load('/reviews/smtivapocalypse.html');
+               $('#stage').load('reviews/smtivapocalypse.html');
             });
 
 });
