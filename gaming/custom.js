@@ -24,8 +24,11 @@ $(document).ready(function(){
                $('#stage').load('idpage.html');
             });
 			
-	$("#review").click(function(event){
+	$("#smtivapocalypse").click(function(event){
                $('#stage').load('reviews/smtivapocalypse.html');
+            });
+	$("#mirrorsedgecatalyst").click(function(event){
+               $('#stage').load('reviews/mirrorsedgecatalyst.html');
             });
 
 });
