@@ -30,5 +30,8 @@ $(document).ready(function(){
 	$("#mirrorsedgecatalyst").click(function(event){
                $('#stage').load('reviews/mirrorsedgecatalyst.html');
             });
+	$("#pokemonmoon").click(function(event){
+               $('#stage').load('reviews/pokemonmoon.html');
+            });
 
 });
