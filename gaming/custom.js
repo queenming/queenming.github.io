@@ -33,5 +33,8 @@ $(document).ready(function(){
 	$("#pokemonmoon").click(function(event){
                $('#stage').load('reviews/pokemonmoon.html');
             });
+	$("#herstory").click(function(event){
+               $('#stage').load('reviews/herstory.html');
+            });
 
 });
