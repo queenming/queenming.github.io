@@ -27,6 +27,9 @@ $(document).ready(function(){
 	$("#smtivapocalypse").click(function(event){
                $('#stage').load('reviews/smtivapocalypse.html');
             });
+	$("#herstory").click(function(event){
+               $('#stage').load('reviews/herstory.html');
+            });
 	$("#mirrorsedgecatalyst").click(function(event){
                $('#stage').load('reviews/mirrorsedgecatalyst.html');
             });
