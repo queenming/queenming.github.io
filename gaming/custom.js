@@ -42,5 +42,8 @@ $(document).ready(function(){
 	$("#abzu").click(function(event){
                $('#stage').load('reviews/abzu.html');
             });
+	$("#persona5").click(function(event){
+               $('#stage').load('reviews/persona5.html');
+            });
 
 });
