@@ -45,5 +45,8 @@ $(document).ready(function(){
 	$("#persona5").click(function(event){
                $('#stage').load('reviews/persona5.html');
             });
+	$("#breathofthewild").click(function(event){
+               $('#stage').load('reviews/breathofthewild.html');
+            });
 
 });
