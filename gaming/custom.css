@@ -5,7 +5,7 @@ body {
 }
 
 h2,h3{
-	font-family:"Lucida Console", Monaco, monospace;
+	font-family:'Monda', sans-serif;;
 	background-color: #333333;
 }
 
@@ -102,8 +102,8 @@ small {
 .table-condensed th{
 	text-indent:-4px;
 	font-weight:bold;
-	font-size:16px;
-	font-family:"Lucida Console", Monaco, monospace;
+	font-size:18px;
+	font-family:'Monda', sans-serif;
 }
 .table-striped>tbody>tr:nth-child(odd)>td, 
 .table-striped>tbody>tr:nth-child(odd)>th {
@@ -141,7 +141,7 @@ table.hide3 td:nth-child(3) {display:none;}
 }
 
 .button {
-	font-family:"Lucida Console", Monaco, monospace;
+	font-family:'Monda', sans-serif;
 	font-size:16px;
 	letter-spacing:-1px;
 	background-color:#333333;
