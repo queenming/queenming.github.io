@@ -48,5 +48,8 @@ $(document).ready(function(){
 	$("#breathofthewild").click(function(event){
                $('#stage').load('reviews/breathofthewild.html');
             });
+	$("#firewatch").click(function(event){
+               $('#stage').load('reviews/firewatch.html');
+            });
 
 });
